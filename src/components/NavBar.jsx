@@ -998,13 +998,13 @@ export default function Navbar() {
               {/* BOUTON HAMBURGER À DEUX BARRES */}
               <button
                 onClick={() => setOpen(!open)}
-                className="relative bg-white/20 p-7 rounded-full backdrop-blur-3xl z-50 flex flex-col justify-center items-center"
+                className="relative bg-white p-6  backdrop-blur-3xl z-50 flex flex-col justify-center items-center"
               >
                 {/* Barre du haut */}
-                <span className={`absolute w-6 h-0.5 bg-black transition-all duration-300 ${open ? 'rotate-45 translate-y-0' : '-translate-y-1.5'}`}></span>
+                <span className={`absolute w-5 h-0.5 bg-black transition-all duration-300 ${open ? 'rotate-45 translate-y-0' : '-translate-y-1.5'}`}></span>
                 
                 {/* Barre du bas */}
-                <span className={`absolute w-6 h-0.5 bg-black transition-all duration-300 ${open ? '-rotate-45 translate-y-0' : 'translate-y-1.5'}`}></span>
+                <span className={`absolute w-5 h-0.5 bg-black transition-all duration-300 ${open ? '-rotate-45 translate-y-0' : 'translate-y-1.5'}`}></span>
               </button>
             </div>
           </div>
