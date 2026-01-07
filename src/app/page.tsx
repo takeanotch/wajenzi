@@ -37,9 +37,9 @@ export default function Home() {
 
 
    <TextImageFill
-  text="Best Right Now"
+  text="Best Now"
   image="/arch3.jpg"
-  fontSize="100px"
+  fontSize="80px"
   fontWeight="900"
 />
 
