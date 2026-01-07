@@ -54,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" suppressHydrationWarning>
+    <html className='' lang="fr" suppressHydrationWarning>
       <body>
           <LayoutTransition>
             <LayoutWrapper>
